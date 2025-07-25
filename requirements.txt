@@ -1,8 +1,5 @@
 streamlit
-tensorflow
 scikit-learn
 xgboost
-pandas
-numpy
-matplotlib
-keras
+tensorflow==2.15.0
+
