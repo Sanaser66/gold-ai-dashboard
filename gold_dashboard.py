@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import mean_squared_error
 from xgboost import XGBRegressor
-from keras.models import Sequential
-from keras.layers import LSTM, Dense
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import LSTM, Dense
 import datetime
 
 st.set_page_config(page_title="Gold AI Dashboard", layout="wide")
